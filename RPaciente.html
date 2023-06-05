@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Registro Paciente</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <img src="img/wepik-coronavirus-illustrations-facebook-cover-20230424135225.png" alt="" width="100%" height="240px" >
+    </header>
+    <main>
+        <nav>
+            <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Bienvenida.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Registro
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="medico.html">Registro de Usuario</a></li>
+                        <li><a class="dropdown-item" href="Rprofesional.html">Registro de Profesional</a></li>
+                        <li><a class="dropdown-item" href="RPaciente.html">Registro de Paciente</a></li>
+                        <li><a class="dropdown-item" href="Rhistorial.html">Registro de Historial</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Informacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Especialidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Consultas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Tratamientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Salir</a>
+                </li>
+            </ul>
+        </nav>
+
+        <center>
+            <h2>
+                Datos del Paciente
+            </h2>
+        </center><br><br>
+        <div class="container">
+            <div class="bg-white shadow rounded">
+                <div class="row ">
+                    <div class="col-lg-12 ">
+                        <center>
+
+                            <img src="img/favicon.png" width="250px" height="250px">
+                        </center>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="login-page ">
+                        <div class="row ">
+                            <div class="col-2"></div>
+                            <div class="col-md-8 pe-0">
+                                <div class="form-left h-100  py-5 px-5 ">
+                                    <form action="" class="row g-4">
+
+                                        <div class="col-6">
+                                            <label class="form-label">DNI<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="number" class="form-control" placeholder="Cedula">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="form-label">Foto<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="validationDefaultUsername"
+                                                    aria-describedby="inputGroupPrepend2" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Nombres<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="Intrduzca su nombre">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Apellidos<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="Intrduzca sus Apellidos">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label>Fecha de Nacimiento<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-lock-fill"></i></div>
+                                                <input type="date" class="form-control" placeholder="Intrduzca su Contraseña">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Sexo<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Seleccione el Sexo</option>
+                                                    <option value="1">Masculino</option>
+                                                    <option value="3">Femenino</option>
+                                                    <option value="2">Otros</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Nombre del Representante<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="Nombre del Representante">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Telefono<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="number" class="form-control" placeholder="Introduzca su telefono">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Sala<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Selccione la Sala</option>
+                                                    <option value="1">Rayos x</option>
+                                                    <option value="3">Sala A</option>
+                                                    <option value="2">Laboratorio</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Dirección<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="Domicilio">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Pais<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Selccione el Pais</option>
+                                                    <option value="1">Colombia</option>
+                                                    <option value="3">Venezuela</option>
+                                                    <option value="2">Perú</option>
+                                                    <option value="4">Panama</option>
+                                                    <option value="5">Brazil</option>
+                                                    <option value="6">Ecuador</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Departamento<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-pill"></i></div>
+                                                <input type="text" class="form-control" placeholder="introduzca su dpto">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Provincia<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="introduzca su dpto">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Distrito<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="introduzca su dpto">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Estado Civil<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Seleccione el estado Civil</option>
+                                                    <option value="1">Casado</option>
+                                                    <option value="3">Soltero</option>
+                                                    <option value="2">Divorciado</option>
+                                                    <option value="6">Separado</option>
+                                                    <option value="4">Viudo</option>
+                                                    <option value="5">Union Libre</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Emergencia<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="introduzca su dpto">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Grupo Sanguineo<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Seleccione el tipo Sangre</option>
+                                                    <option value="1">A+</option>
+                                                    <option value="3">B-</option>
+                                                    <option value="2">A-</option>
+                                                    <option value="6">O+</option>
+                                                    <option value="4">AB+</option>
+                                                    <option value="5">O-</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Ocupación<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>talla<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="introduzca su altura">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Peso<span class="text-danger">*</span></label>
+                                            <div class="input-group">
+                                                <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                <input type="text" class="form-control" placeholder="introduzca su Peso">
+                                            </div>
+                                        </div>
+                                        <div class="form-floating mb-2 col-12">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled"></textarea>
+                                            <label for="floatingTextareaDisabled">Alergico</label>
+                                          </div>
+                                          <div class="form-floating mb-2 col-12">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled"></textarea>
+                                            <label for="floatingTextareaDisabled">Medicamento que toma</label>
+                                          </div>
+                                          <div class="form-floating mb-2 col-12">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled"></textarea>
+                                            <label for="floatingTextareaDisabled">Emfermedad que tiene</label>
+                                          </div>
+                                        <div class="row">
+                                    <div class="col-4 ">
+                                        <button type="submit"
+                                            class="btn btn-primary px-4 float-end mt-4 text-center">Registrar</button>
+                                    </div>
+                                    <div class="col-7 ">
+                                        <button type="reset"
+                                            class="btn btn-primary px-4 float-end mt-4 text-center">Limpiar</button>
+                                    </div>
+                                </div>
+                                    </form>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <center> &copy;Copyright-Isaac Izquierdo Baine</center>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
